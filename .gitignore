@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Airflow
+logs/
+airflow.db
+airflow.cfg
+airflow-webserver.pid
+
+# Airflow dags compilados
+*.log
+
+# Ambiente virtual
+venv/
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Mac / Linux
+.DS_Store
+
+# Docker
+*.pid
+*.sock
+
+# Testes
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
